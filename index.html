@@ -1,0 +1,126 @@
+ <!--this represent HTML5 for <!DOCTYPE html>
+all are shortcuts from Emmet-->
+
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+ <!--dir is direction of text written left to right -->
+ <!--head is part of HTML that holds information about the webpage and tells the browser how it should handle the page-->
+
+ <head>
+   <meta charset="utf-8">
+   <!--gives extra meta data or associated data to HTML document, encoded in UTF-8, standard encoding, unicode -->
+   <title>Jimmy's Personal Site</title>
+   <!--this is the tab title -->
+ </head>
+
+ <body>
+   <table cellspacing = "20">
+     <tr>
+       <td><img src="images/jimmy.jpg" alt="Jimmy's photo"></td>
+       <!--alt is the alternate text to display if unable to display photo -->
+       <td><h1>Jimmy Yeow</h1>
+       <p><em>Student at <strong><a href="https://london.ac.uk/">UOL</a></strong>.</em></p>
+       <p><em>My <strong><a href="https://www.linkedin.com/in/jimmy-yeow-623155173/">LinkedIn Account</a></strong>.</em></p>
+       <!--use <em></em> instead of <i></i> to emphasize the content and use <strong></strong> instead of <b></b> for bold to give strong importance -->
+       <!--<a href="is link destination "> this is the name user will see </a> -->
+       <p>Hi my name is Jimmy.</p></td>
+   </table>
+
+   <hr>
+   <h3><strong>Education</strong></h3>
+   <!--
+   <ol>
+
+     <li>Singapore Institute of Management (UOL)</li>
+     <li>Temasek Polytechnic</li>
+   </ol>
+  -->
+   <!--ordered listing, numbered or alphabet point -->
+
+   <!-- first create a table, then include table head, body and foot.
+ this is to for styling purposes when using CSS or JS
+one example would be when scrolling a table, we will want to have Fixed table headers -->
+   <table cellspacing="10">
+     <thead>
+       <tr>
+         <th>Year</th>
+         <th>Location</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>2017-2020</td>
+         <td>Singapore Institute of Management</td>
+       </tr>
+       <tr>
+         <td>2012 - 2015</td>
+         <td>Temasek Polytechnic</td>
+       </tr>
+     </tbody>
+   </table>
+<hr>
+
+<!-- example of nested table
+   <table>
+     <tr>
+       <td>
+         <table>
+          <tr>
+            <td>Android development</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Java language</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Web development</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+      </td>
+
+       <td>
+         <table>
+          <tr>
+            <td>Android development</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Java language</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Web development</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+       </td>
+     </tr>
+   </table>
+-->
+
+
+   <h3>Skills</h3>
+   <table cellspacing="10">
+     <tr>
+       <td>Android development</td>
+       <td>⭐⭐</td>
+     </tr>
+     <tr>
+       <td>Java language</td>
+       <td>⭐⭐⭐</td>
+     </tr>
+     <tr>
+       <td>Web development</td>
+       <td>⭐</td>
+     </tr>
+   </table>
+   <hr>
+   <a href="hobbies.html">My Hobbies</a>
+   <!--this will create 'My Hobbies' with hyperlink, link to hobbies.html file
+the file have to be in the same hierarchy/folder -->
+   <br>
+   <a href="contact.html">Contact me</a>
+ </body>
+ </html>
